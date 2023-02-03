@@ -1,0 +1,27 @@
+.grandmaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px
+}
+
+.grandmaContainer input {
+    border: 2px solid black;
+    width: 40%;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.grandmaContainer p {
+    border: 2px solid black;
+    width: 40%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.grandmaContainer img {
+    height: 200px;
+    width: 200px;
+}
