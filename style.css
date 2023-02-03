@@ -9,19 +9,27 @@
 .grandmaContainer input {
     border: 2px solid black;
     width: 40%;
+    height: 100px;
     font-size: 16px;
     text-align: center;
 
 }
 
-.grandmaContainer p {
+#grandmaText {
     border: 2px solid black;
     width: 40%;
+    height: 100px;
     font-size: 16px;
     text-align: center;
+    pointer-events: none;
+}
+
+#grandmaText::placeholder {
+    color: black;
 }
 
 .grandmaContainer img {
     height: 200px;
     width: 200px;
 }
+
